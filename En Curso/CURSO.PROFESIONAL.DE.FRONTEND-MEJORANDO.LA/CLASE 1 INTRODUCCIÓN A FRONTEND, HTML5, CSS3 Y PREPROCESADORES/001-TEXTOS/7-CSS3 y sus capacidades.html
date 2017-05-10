@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+
+    
+    
+        <title>Cursos online de Mejorando.la</title>
+    
+
+
+    
+    
+        <link href="https://cursos.mejorando.la/media/favicons/mejorandola_fanpage_1.jpg" rel="shortcut icon">
+    
+
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,800italic,400,300,600">
+    <link href="https://cursos.mejorando.la/static/css/platzi-base.css?v=2.1" rel="stylesheet">
+
+    <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script src="https://cursos.mejorando.la//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+
+    
+        <script type="text/javascript" src="https://cursos.mejorando.la/static/js/vendors/socket.io.js"></script>
+        <script type="text/javascript">
+            window.nodeServer = "https://live.platzi.com/";
+        </script>
+    
+    
+<link href="https://cursos.mejorando.la/static/organizations/css/platzi-timeline.css?v=3.0" rel="stylesheet">
+
+
+<style type="text/css"></style></head>
+
+<body class="prettify-desert">
+
+<div class="material-container">
+
+        <div class="material-content">
+            <h1>CSS3 y sus capacidades</h1>
+            En este bloque hablaremos de CSS, profundizando de una manera profesional y a fondo sobre sus nuevas capacidades y extensiones que te ayudaran a escribir código y entender conceptos clave.<br><br><span><strong>CSS</strong> son las hojas de estilo en cascada, es decir, es el encargado de generar los estilos de nuestro documento HTML.<br></span><br>Si tu eres de las personas que dice que programa al momento de hacer un documento en CSS, te doy la triste y mala noticia de que esto es falso ya que tu nunca programas en CSS o en HTML, sino tu diseñas y modelas datos.<br><br>CSS3 siendo parte de la estrategia de marketing para las nuevas tecnologías HTML5, viene a ser la actualización milagrosa de CSS2 en donde nuestra vida es más bella y divertida al momento de pasar un diseño de FireWorks a la Interweb real.<br><br> ¿Te acuerdas cuando tenías que poner un código asqueroso lleno de imágenes para tan solo colocar un borde redondeado? O quizás recuerdes cuando una sombra en un diseño era una pesadilla y la mejor de todas las falencias era tener que volver a crear un diseño especial para móviles en un subdominio que empezaba por m.tudominio.com. Una época muy complicada. <br><br> Es cuando llega CSS3 con bordes redondeados, sombras, animaciones, dibujo en 2D y 3D y lo que nos resolvió la vida en cuanto a los móviles que cada día nos invaden mas, Responsive Design junto a los layouts fluidos.<br><br><h4>Nuevas capacidades de CSS3</h4><br><strong>Fuentes<br></strong><span><br>Uno de los mayores problemas en el pasado de CSS2 era que tu podías usar la fuente que quisieras, pero tenías que limitarte a las que estuvieran disponibles en todos los navegadores o dependiendo hacia donde iba dirigido tu producto. La opción era usar una u otra fuente en caso de no ser encontrada, y esto hacía que nuestro diseño no pudiera ser tan completo y propio como nosotros quisiéramos.<br></span><br>Hoy en día tenemos un millón de alternativas para poder hacer que nuestras fuentes sean compatibles en todos los navegadores con @font-face en donde descargamos la fuente determinada para cada navegador:<br><br><strong>TTF - TrueType Font<br><br></strong> Es muy estándar pero no tiene protección ninguna. Es un formato abierto y reusable, por lo que fuentes privadas o propietarias (como Helvetica o Myriad Pro) al ponerlas en la web, son distribuidas. <br><br>Esto está prohibido por la licencia del creador de la fuente (historia larga) y para ello, varios navegadores crearon estas opciones.<br><br>Soportada por Internet Explorer 9.0 o posterior, Firefox 19.0 o posterior, Chrome 24.0 o posterior, Safari 5.1 o posterior, Opera 12.1 o posterior, Safari Mobile 4.1 o posterior, Android Browser 2.2 o posterior y Blackberry Browser 7.0 o posterior.<br><br><strong>WOFF - Web Open Font Format<br></strong><br>Web Open Font Format es el formato oficial de la W3C, creado por Mozilla y ahora apoyado por Chrome, Opera e IE9 y 10. También oscuro, pero también necesario.<br>Soportada por internet explorer 9.0 o posterior, Firefox 19.0 o posterior, Chrome 24.0 o posterior, Safari 5.0 o posterior, Opera 12.1, Safari Mobile 5.0, algunas versiones modificadas de android y BlackBerry Browser 7.0 o posterior.<br><br><strong>EOT - Embedded Open Type<br></strong><br>El formato Embedded Open Type (.eot) fue creado por Microsoft como pionero en Internet Explorer 6 para agregar fuentes a través de font-face. Es bastante oscuro pero es la única forma de hacer que las fuentes funcionen en IE6, 7 y 8.<br><br>Soportada por internet explorer 6.0 o posterior.<br><br><strong>SVG - Scalable Vector Graphics<br></strong><br>Scalable Vector Graphics es un formato de dibujo vectorial soportado por todos los navegadores y por herramientas como Adobe Illustrator. SVG también puede contener fuentes por dentro, porque una fuente a fin de cuentas es un vector. SVG es obligatorio para darle soporte a Safari Mobile (iPhone, iPad).<br><br>Soportada por Chrome 24.0 o posterior, Safari 5.1 o posterior, Opera 12.1 o posterior, Safari Mobile 3.2 o posterior, Android Browser 3.0 o posterior y Blackberry Browser 7.0 o posterior.<br><br>La forma de implementar las fuentes después de descargarlas sera mediante @font-face el cual es totalmente compatible con TODOS los navegadores como mostramos a continuación:<br><br><img src="https://raw.github.com/MiguelNieva/miguelnieva.github.com/master/img/css3-1.png" alt=""><br><span><strong><br>SRC </strong>indica la URL en donde esta ubicada cada una de las fuentes. Mas info en <a href="http://caniuse.com/#search=@font-face" target="_blank" rel="nofollow">caniuse.com</a><br></span><br><span>Tenemos otras opciones como <a href="http://www.google.com/fonts/" target="_blank" rel="nofollow">Google Web Fonts</a> en donde solo hace falta importar un script dinámico (esa linea de código te la indican según su fuente, no debes matarte la cabeza), y por arte de magia tu web se conectara a los servidores de Google para sacar las fuentes y se las mostrara a todos tus usuarios cada vez que entren a tu pagina.<br></span><br><br><img src="http://seindor.com/maacera.com/blog/wp-content/uploads/2012/02/google-web-fonts-02.jpg" alt="">
+            
+        </div>
+    </div>
+</body>
+</html>
